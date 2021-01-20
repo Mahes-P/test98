@@ -1,7 +1,3 @@
 hello
 hello
 hello
-curl "https://api.GitHub.com/repos/Mahes-P/test98/statuses/$GIT_COMMIT?access_token=f0d1ab886644bf382ebbef89db14ebb44b91efbf" \
-  -H "Content-Type: application/json" \
-  -X POST \
-  -d "{\"state\": \"success\",\"context\": \"continuous-integration/jenkins\", \"description\": \"Jenkins\", \"target_url\": \"http://54.175.83.1:8080/job/test/$BUILD_NUMBER/console\"}"
